@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">纯净跳过</string>
+    <string name="app_name_debug">纯净跳过(Debug)</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">纯净跳过需要此权限来识别并自动点击其他应用中的\"跳过\"或\"关闭\"广告按钮。\n\n• 所有识别和操作仅在您的手机本地完成\n• 不保存页面内容，不截图，不上传任何数据\n• 本应用没有网络权限，完全离线运行\n• 您可以随时关闭此服务</string>
+
+    <!-- First Launch Guide -->
+    <string name="guide_welcome_title">欢迎使用纯净跳过</string>
+    <string name="guide_welcome_desc">自动跳过应用启动广告，让每次打开应用都干干净净。</string>
+    <string name="guide_what_it_does_title">它能做什么</string>
+    <string name="guide_what_it_does_desc">• 自动识别并点击已适配应用的\"跳过\"按钮\n• 支持腾讯视频、爱奇艺、番茄小说等10款热门应用\n• 仅在应用启动后的10秒内工作，不影响正常使用</string>
+    <string name="guide_what_it_cannot_title">它不能做什么</string>
+    <string name="guide_what_it_cannot_desc">• 不能拦截所有广告（只处理有明确\"跳过\"按钮的启动广告）\n• 不会删除页面内的广告元素\n• 不保证对所有应用的所有版本都有效</string>
+    <string name="guide_privacy_title">隐私保障</string>
+    <string name="guide_privacy_desc">• 没有网络权限，完全离线运行\n• 不收集、不保存、不上传您的任何个人数据\n• 不使用截图、OCR或AI识别\n• 无障碍节点仅用于即时匹配，匹配后立即丢弃\n• 卸载后所有本地数据完全删除</string>
+    <string name="guide_risk_title">风险说明</string>
+    <string name="guide_risk_desc">开启无障碍服务后，Android 会允许本应用读取当前页面的控件信息并代替您点击按钮。\n\n我们只点击经过验证的\"跳过/关闭\"按钮，但仍有可能因应用更新导致误识别。\n\n您可以随时关闭无障碍服务或一键暂停所有功能。</string>
+    <string name="guide_agree_checkbox">我已阅读并理解上述说明和风险</string>
+    <string name="guide_agree_button">同意并开启服务</string>
+    <string name="guide_skip_button">先看看再说</string>
+
+    <!-- Main Screen -->
+    <string name="main_service_status">无障碍服务状态</string>
+    <string name="main_service_on">已开启</string>
+    <string name="main_service_off">未开启</string>
+    <string name="main_service_error">服务异常</string>
+    <string name="main_total_skipped">累计跳过</string>
+    <string name="main_total_skipped_unit">次</string>
+    <string name="main_pause_all">一键暂停</string>
+    <string name="main_resume_all">恢复运行</string>
+    <string name="main_is_paused">已暂停</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">首页</string>
+    <string name="nav_apps">应用</string>
+    <string name="nav_settings">设置</string>
+    <string name="nav_privacy">隐私</string>
+
+    <!-- App Control -->
+    <string name="apps_title">应用管理</string>
+    <string name="apps_subtitle">为个别应用单独开启增强识别或手动教学</string>
+    <string name="apps_empty">暂无已识别的应用\n启动其他应用后会自动出现在这里</string>
+    <string name="apps_enabled">已启用</string>
+    <string name="apps_disabled">已禁用</string>
+    <string name="apps_blocked">已屏蔽</string>
+    <string name="apps_experimental_label">增强识别总开关</string>
+    <string name="apps_experimental_desc">只对单独选中的应用生效，默认关闭</string>
+    <string name="apps_experimental_warning">增强识别会读取所选应用当前页面的无障碍控件，并可能自动点击关闭按钮。\n\n登录、支付、验证码、安装和授权页面会被安全保护，但应用更新后仍存在误点风险。确定开启吗？</string>
+    <string name="apps_enhanced_label">此应用启用增强识别</string>
+    <string name="apps_tab_adapted">已适配</string>
+    <string name="apps_tab_recent">最近使用</string>
+    <string name="apps_tab_all">全部应用</string>
+    <string name="apps_scope_full">范围：应用全程</string>
+    <string name="apps_scope_startup">范围：仅启动后</string>
+    <string name="apps_teach">手动教学</string>
+    <string name="apps_manage_rules">管理规则</string>
+    <string name="apps_learned_count">已学习 %1$d 条规则</string>
+    <string name="apps_all_permission_title">查看全部应用</string>
+    <string name="apps_all_permission_message">为方便选择需要增强的应用，本功能会在本机读取已安装应用的名称、图标和包名。\n\n这些信息只用于本地选择，不上传、不统计；您也可以只使用“最近使用”列表。是否继续？</string>
+    <string name="apps_restricted">受保护应用，禁止增强</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_master_switch">总开关</string>
+    <string name="settings_master_switch_desc">关闭后停止所有识别和操作</string>
+    <string name="settings_experimental">增强识别总开关</string>
+    <string name="settings_experimental_desc">仅对在“应用管理”中单独启用的应用生效</string>
+    <string name="settings_show_count">显示累计次数</string>
+    <string name="settings_diagnostics">本地诊断</string>
+    <string name="settings_diagnostics_desc">默认关闭；只记录包名、事件类型、节点数量、规则编号和结果代码，最多100条</string>
+    <string name="settings_view_diagnostics">查看 / 复制</string>
+    <string name="settings_clear_diagnostics">清空诊断</string>
+    <string name="settings_clear_records">清空本地记录</string>
+    <string name="settings_clear_records_desc">清除累计跳过次数</string>
+    <string name="settings_clear_confirm">确定要清空所有本地记录吗？此操作不可撤销。</string>
+    <string name="settings_reset">恢复默认设置</string>
+    <string name="settings_reset_confirm">确定要恢复默认设置吗？所有配置将被重置。</string>
+    <string name="settings_open_accessibility">打开无障碍设置</string>
+    <string name="settings_version">版本信息</string>
+
+    <!-- Privacy -->
+    <string name="privacy_title">隐私中心</string>
+    <string name="privacy_commitment_title">隐私承诺</string>
+    <string name="privacy_commitment">本应用的所有识别和操作仅在您的手机本地完成，不上传任何个人数据。仅保存用户配置、最近应用包名、学习规则和可选诊断结果。</string>
+    <string name="privacy_no_network">无网络权限 — 本应用不能联网</string>
+    <string name="privacy_no_account">无账号系统 — 不收集任何身份信息</string>
+    <string name="privacy_no_upload">无云端上传 — 所有数据仅存本地</string>
+    <string name="privacy_no_screenshot">无截图能力 — 不截取任何屏幕内容</string>
+    <string name="privacy_permissions_title">权限说明</string>
+    <string name="privacy_perm_accessibility">无障碍服务 — 用于识别广告控件并执行点击</string>
+    <string name="privacy_perm_apps">应用列表可见性 — 仅在用户确认查看“全部应用”后，本地读取名称、图标和包名</string>
+    <string name="privacy_perm_no_internet">网络权限 — 未申请</string>
+    <string name="privacy_perm_no_storage">存储权限 — 未申请</string>
+    <string name="privacy_perm_no_camera">相机权限 — 未申请</string>
+    <string name="privacy_perm_no_location">位置权限 — 未申请</string>
+    <string name="privacy_perm_no_contacts">通讯录权限 — 未申请</string>
+    <string name="privacy_data_scope_title">数据保存范围</string>
+    <string name="privacy_data_scope_desc">本地仅保存以下数据：\n• 用户主动选择的应用开关和作用范围\n• 最近出现的应用包名与时间\n• 手动教学的归一化坐标和不含文字的页面结构指纹\n• 累计成功跳过次数\n• 用户主动开启的诊断结果（不含页面文字）\n\n不截图、不保存账号或输入内容；卸载后本地数据全部删除。</string>
+
+    <!-- Common -->
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="ok">好的</string>
+
+    <!-- Actions -->
+    <string name="action_emergency_stop">紧急停止</string>
+    <string name="action_emergency_stop_desc">立即停止所有识别和操作</string>
+    <string name="action_emergency_stop_confirm">确定要紧急停止所有功能吗？\n\n关闭后需要手动重新开启。</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Clean Blue -->
+    <color name="primary">#FF1976D2</color>
+    <color name="primary_variant">#FF1565C0</color>
+    <color name="primary_container">#FFE3F2FD</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="on_primary_container">#FF0D47A1</color>
+
+    <!-- Secondary Colors - Soft Teal -->
+    <color name="secondary">#FF26A69A</color>
+    <color name="secondary_variant">#FF00897B</color>
+    <color name="secondary_container">#FFE0F2F1</color>
+    <color name="on_secondary">#FFFFFFFF</color>
+    <color name="on_secondary_container">#FF004D40</color>
+
+    <!-- Tertiary Colors -->
+    <color name="tertiary">#FF7C4DFF</color>
+    <color name="tertiary_container">#FFEDE7F6</color>
+
+    <!-- Surface Colors -->
+    <color name="surface">#FFFBFCFE</color>
+    <color name="surface_variant">#FFF0F4F8</color>
+    <color name="on_surface">#FF1A1C1E</color>
+    <color name="on_surface_variant">#FF44474F</color>
+
+    <!-- Background -->
+    <color name="background">#FFFBFCFE</color>
+    <color name="on_background">#FF1A1C1E</color>
+
+    <!-- Error -->
+    <color name="error">#FFE53935</color>
+    <color name="error_container">#FFFDECEA</color>
+    <color name="on_error">#FFFFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="status_on">#FF43A047</color>
+    <color name="status_off">#FFE53935</color>
+    <color name="status_warning">#FFFFA000</color>
+    <color name="status_paused">#FF757575</color>
+
+    <!-- Card & Divider -->
+    <color name="card_background">#FFFFFFFF</color>
+    <color name="divider">#FFE0E0E0</color>
+    <color name="shadow">#1A000000</color>
+
+    <!-- Text -->
+    <color name="text_primary">#DE000000</color>
+    <color name="text_secondary">#99000000</color>
+    <color name="text_hint">#61000000</color>
+    <color name="text_disabled">#38000000</color>
+
+    <!-- Switch -->
+    <color name="switch_track_on">#801976D2</color>
+    <color name="switch_track_off">#FFBDBDBD</color>
+    <color name="switch_thumb_on">#FF1976D2</color>
+    <color name="switch_thumb_off">#FFFFFFFF</color>
+</resources>

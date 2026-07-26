@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Shield shape -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M48,8 L48,8 C48,8 80,20 80,20 L80,48 C80,68 66,84 48,92 C30,84 16,68 16,48 L16,20 C16,20 48,8 48,8 Z" />
+    <!-- Skip arrow -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,34 L56,48 L36,62 Z" />
+    <!-- Skip line -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,34 L58,62 L62,62 L62,34 Z" />
+</vector>
